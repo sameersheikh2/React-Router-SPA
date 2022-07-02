@@ -7,7 +7,7 @@ function App() {
   return (
       <Switch>
         <Route path='/' exact>
-          <Redirect path='/quotes'/>
+          <Redirect to='/quotes'/>
         </Route>
       <Route path='/quotes' exact>
         <AllQuotes/>

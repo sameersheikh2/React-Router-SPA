@@ -1,8 +1,12 @@
 import React from 'react'
 
 const AllQuotes = () => {
+
   return (
-    <h1>AllQuotes</h1>
+    <React.Fragment>
+        <h1>AllQuotes</h1>
+       
+    </React.Fragment>
   )
 }
 
